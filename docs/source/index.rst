@@ -60,7 +60,7 @@ Once you get to section with 3 questions, select ``Yes, I'm able to run CLI comm
 
 .. image:: images/TwingateCLI.png
 
-Pick the most relevant option for the second question, and make sure you have an acceptable name for your network.
+Pick the most relevant option for the second question, and make sure you have an acceptable name for your network for the third question.
 
 Once all the account setup has been done, navigate to the dashboard and click the ``Add Remote Network`` button.
 
@@ -74,11 +74,11 @@ Click ``Deploy Connector``, leave Docker selected for step 1, generate the token
 
 Open Command Prompt and paste in the command, and click enter to run it. This will create a docker container that will allow you to connect to your computer from anywhere.
 
-Now we also need to find the local IP of your computer. To do this, navigate to settings, Network & internet, and either Ethernet or Wi-Fi. Find the field that says IPv4 address, and copy it.
+Now we also need to find the local IP of your computer. To do this, navigate to your Windows settings, Network & internet, and either Ethernet or Wi-Fi, depending on which you are using. Find the field that says IPv4 address, and copy it.
 
 We now will go back to Twingate and add your computer as a network resource.
 
-From the Network overview page, navigate to resources, and add a resource by clicking the ``+ Resource`` button.
+From the network overview page, navigate to resources, and add a resource by clicking the ``+ Resource`` button.
 
 Select the network to add the resource to, enter a name for the resouce, and paste in the IP address into the address field.
 
@@ -95,7 +95,9 @@ Now that all the main setup steps are done, you are ready to access your device 
 All that you need is to download Twingate and Remote Desktop on the device you will be using to access your main device, sign in to Twingate, and then enter the IP address of your main device into Remote Desktop and click connect.
 
 Where Twingate is available:
+
 .. image:: images/TwingateClients.png
 
 Where Remote Desktop is available:
+
 .. image:: images/RemoteDesktopClients.png
