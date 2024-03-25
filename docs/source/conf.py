@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'CSE 300 User Instructions'
+copyright = '2024, Daniel Langer'
+author = 'Daniel Langer'
 
 release = '0.1'
 version = '0.1.0'
