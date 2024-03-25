@@ -42,7 +42,7 @@ Once the installer has been downloaded, run it and follow the installation instr
 
 The last thing we need to do in Docker is make sure that Docker will automatically start whenever Windows starts, so go to settings and check the ``Start Docker Desktop when you sign in to you computer`` box.
 
-.. image:: images/StartWithWindows.png
+.. image:: images/StartDockerWithWindows.png
 
 Twingate
 --------
