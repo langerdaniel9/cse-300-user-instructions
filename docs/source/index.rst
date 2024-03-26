@@ -27,7 +27,7 @@ Remote Desktop also needs to be enabled in your Windows settings. `This guide fr
 .. attention::
    Read the warning provided by Microsoft to understand the risks of enabling Remote Desktop `here <https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-allow-access#windows-10-fall-creator-update-1709-or-later>`_.
 
-
+--------------
 Docker Desktop
 --------------
 
@@ -45,6 +45,7 @@ The last thing we need to do in Docker is make sure that Docker will automatical
 
 .. image:: images/StartDockerWithWindows.png
 
+--------
 Twingate
 --------
 
@@ -88,6 +89,7 @@ Select the network to add the resource to, enter a name for the resouce, and pas
 .. note::
    In most cases, especially if your device is using Wi-Fi, the IP address you have copied is not permanently assigned, and can change. You may want to look into a static IP assignment which can be done within your router settings.
 
+---------------------
 Accessing your device
 ---------------------
 
