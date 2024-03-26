@@ -7,6 +7,7 @@ Have you ever had the situation where you have a computer at home or work that y
    * This guide assumes that the main device you will connect to is running Windows 10/11 Professional
    * This method of remote access requires that your computer is permanently turned on. If your device turns off, you will not be able to connect to it.
 
+-----------
 Prerequites
 -----------
 
