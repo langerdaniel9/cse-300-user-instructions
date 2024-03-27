@@ -83,7 +83,7 @@ Twingate
 
 12. From the network overview page, navigate to resources, and add a resource by clicking the ``+ Resource`` button.
 
-13. Select the network to add the resource to, enter a name for the resouce, and paste in the IP address into the address field.
+13. Select the network to add the resource to, enter a name, and paste in the IP address into the address field.
 
 .. image:: images/AddResource.png
 
