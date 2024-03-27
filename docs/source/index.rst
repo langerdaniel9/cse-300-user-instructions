@@ -31,7 +31,7 @@ Remote Desktop also needs to be enabled in your Windows settings. `This guide fr
 Docker Desktop
 --------------
 
-Navigate to the `Docker Desktop installation page <https://www.docker.com/products/docker-desktop/>`_ and download the installer.
+1. Navigate to the `Docker Desktop installation page <https://www.docker.com/products/docker-desktop/>`_ and download the installer.
 
 .. attention::
    You will have to agree to the terms and conditions during the install process. Ensure you read and understand them before proceeding.
@@ -39,9 +39,9 @@ Navigate to the `Docker Desktop installation page <https://www.docker.com/produc
 .. note::
    You may be asked to create an account, but you can skip this step.
 
-Once the installer has been downloaded, run it and follow the installation instructions. Continue through the install with all default options until you get to the main screen.
+2. Once the installer has been downloaded, run it and follow the installation instructions. Continue through the install with all default options until you get to the main screen.
 
-The last thing we need to do in Docker is make sure that Docker will automatically start whenever Windows starts, so go to settings and check the ``Start Docker Desktop when you sign in to your computer`` box.
+3. The last thing we need to do in Docker is make sure that Docker will automatically start whenever Windows starts, so go to settings and check the ``Start Docker Desktop when you sign in to your computer`` box.
 
 .. image:: images/StartDockerWithWindows.png
 
@@ -49,8 +49,7 @@ The last thing we need to do in Docker is make sure that Docker will automatical
 Twingate
 --------
 
-Navigate to `Twingate <https://twingate.com>`_ and sign up for an account.
-Fill in the fields with the relevant information.
+1. Navigate to `Twingate <https://twingate.com>`_ and sign up for an account.
 
 .. attention::
    You will have to agree to the customer agreement and privacy policy before continuing. Ensure you read and understand them before proceeding.
@@ -58,31 +57,33 @@ Fill in the fields with the relevant information.
 .. note::
    By default, Twingate gives new customers a business trial. For our purposes, we do not need any of the features of the business plan, so you are free to just let the trial expire. Since you have not provided any payment information, you don't need to worry about any fees.
 
-Once you get to section with 3 questions, select ``Yes, I'm able to run CLI commands`` for the first one.
+2. Once you get to section with 3 questions, select ``Yes, I'm able to run CLI commands`` for the first one.
 
 .. image:: images/TwingateCLI.png
 
-Pick the most relevant option for the second question, and make sure you have an acceptable name for your network for the third question.
+3. For the secnod question pick the most relevant option.
 
-Once all the account setup has been done, navigate to the dashboard and click the ``Add Remote Network`` button.
+4. For the third question make sure you have an acceptable name for your network.
 
-Choose location ``Other`` and name it.
+5. Once all the account setup has been done, navigate to the dashboard and click the ``Add Remote Network`` button.
+
+6. Choose location ``Other`` and give your location a name.
 
 .. image:: images/AddRemoteNetwork.png
 
-After creating the network, navigate to `Remote Networks` and click on the network you just created.
+7. After creating the network, navigate to ``Remote Networks`` and click on the network you just created.
 
-Click ``Deploy Connector``, leave Docker selected for step 1, generate the tokens for step 2, leave everything unchecked for step 3, and copy the command given in step 4 by clicking the ``Copy Command`` button.
+8. Click ``Deploy Connector``, leave Docker selected for step 1, generate the tokens for step 2, leave everything unchecked for step 3, and copy the command given in step 4 with the ``Copy Command`` button.
 
-Open Command Prompt and paste in the command, and click enter to run it. This will create a docker container that will allow you to connect to your computer from anywhere.
+9. Open Command Prompt and paste in the command, and click enter to run it. This will create a docker container that will allow you to connect to your computer from anywhere.
 
-Now we also need to find the local IP of your computer. To do this, navigate to your Windows settings, Network & internet, and either Ethernet or Wi-Fi, depending on which you are using. Find the field that says IPv4 address, and copy it.
+10. Now we also need to find the local IP of your computer. To do this, navigate to your Windows settings, Network & internet, and either Ethernet or Wi-Fi, depending on which you are using. Find the field that says IPv4 address, and copy it.
 
-We now will go back to Twingate and add your computer as a network resource.
+11. We now will go back to Twingate and add your computer as a network resource.
 
-From the network overview page, navigate to resources, and add a resource by clicking the ``+ Resource`` button.
+12. From the network overview page, navigate to resources, and add a resource by clicking the ``+ Resource`` button.
 
-Select the network to add the resource to, enter a name for the resouce, and paste in the IP address into the address field.
+13. Select the network to add the resource to, enter a name for the resouce, and paste in the IP address into the address field.
 
 .. image:: images/AddResource.png
 
@@ -95,7 +96,17 @@ Accessing your device
 
 Now that all the main setup steps are done, you are ready to access your device from anywhere in the world.
 
-All that you need is to download Twingate and Remote Desktop on the device you will be using to access your main device, sign in to Twingate, and then enter the IP address of your main device into Remote Desktop and click connect.
+1. Download Twingate and Remote Desktop clients on whichever device you are using to access your main device.
+
+2. Sign in or configure both the Twingate and Remote Desktop clients.
+
+3. Either recall or double check the device IP that you want to connect to (can be found in the Twingate client).
+
+4. In the Remote Desktop app, create a new connection to that IP address and connect.
+
+5. Now you should be able to access your device from anywhere you wish!
+
+
 
 Where Twingate is available:
 
