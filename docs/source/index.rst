@@ -41,7 +41,7 @@ Navigate to the `Docker Desktop installation page <https://www.docker.com/produc
 
 Once the installer has been downloaded, run it and follow the installation instructions. Continue through the install with all default options until you get to the main screen.
 
-The last thing we need to do in Docker is make sure that Docker will automatically start whenever Windows starts, so go to settings and check the ``Start Docker Desktop when you sign in to you computer`` box.
+The last thing we need to do in Docker is make sure that Docker will automatically start whenever Windows starts, so go to settings and check the ``Start Docker Desktop when you sign in to your computer`` box.
 
 .. image:: images/StartDockerWithWindows.png
 
