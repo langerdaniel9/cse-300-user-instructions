@@ -77,7 +77,7 @@ Twingate
 
 9. Open Command Prompt and paste in the command, and click enter to run it. This will create a docker container that will allow you to connect to your computer from anywhere.
 
-10. Now we also need to find the local IP address of your computer. `This guide from Microsoft<https://support.microsoft.com/en-us/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9>`_ explains how to do so.
+10. Now we also need to find the local IP address of your computer. `This guide from Microsoft <https://support.microsoft.com/en-us/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9>`_ explains how to do so.
 
 11. We now will go back to Twingate and add your computer as a network resource.
 
