@@ -7,9 +7,9 @@ Have you ever had the situation where you have a computer at home or work that y
    * This guide assumes that the main device you will connect to is running Windows 10/11 Professional
    * This method of remote access requires that your computer is permanently turned on. If your device turns off, you will not be able to connect to it.
 
------------
-Prerequites
------------
+-------------
+Prerequisites
+-------------
 
 Virtualization
 ~~~~~~~~~~~~~~
@@ -57,11 +57,11 @@ Twingate
 .. note::
    By default, Twingate gives new customers a business trial. For our purposes, we do not need any of the features of the business plan, so you are free to just let the trial expire. Since you have not provided any payment information, you don't need to worry about any fees.
 
-2. Once you get to section with 3 questions, select ``Yes, I'm able to run CLI commands`` for the first one.
+2. Once you get to the section with 3 questions, select ``Yes, I'm able to run CLI commands`` for the first one.
 
 .. image:: images/TwingateCLI.png
 
-3. For the secnod question pick the most relevant option.
+3. For the second question pick the most relevant option.
 
 4. For the third question make sure you have an acceptable name for your network.
 
