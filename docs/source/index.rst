@@ -14,10 +14,10 @@ Prerequites
 Virtualization
 ~~~~~~~~~~~~~~
 
-Virtualization needs to be enabled in this BIOS. This process will vary depending on your computer, so you may need to look up instructions for your specific model.
+Virtualization needs to be enabled in the BIOS. This process will vary depending on your computer, so you may need to look up instructions for your specific model.
 
 .. attention::
-   Changing settings in your bios has the potential to lead to system instability or even make your system completely inoperable. Avoid changing settings if you do not know what they do.
+   Changing settings in your BIOS has the potential to lead to system instability or even make your system completely inoperable. Avoid changing settings if you do not know what they do.
 
 Remote Desktop
 ~~~~~~~~~~~~~~
@@ -39,7 +39,7 @@ Docker Desktop
 .. note::
    You may be asked to create an account, but you can skip this step.
 
-2. Once the installer has been downloaded, run it and follow the installation instructions. Continue through the install with all default options until you get to the main screen.
+2. Once the installer has been downloaded, run it and follow the installation instructions. Continue through the installation with all default options until you get to the main screen.
 
 3. The last thing we need to do in Docker is make sure that Docker will automatically start whenever Windows starts, so go to settings and check the ``Start Docker Desktop when you sign in to your computer`` box.
 
@@ -96,7 +96,7 @@ Accessing your device
 
 Now that all the main setup steps are done, you are ready to access your device from anywhere in the world.
 
-1. Download Twingate and Remote Desktop clients on whichever device you are using to access your main device.
+1. Download the Twingate and Remote Desktop clients on whichever device you are using to access your main device.
 
 2. Sign in or configure both the Twingate and Remote Desktop clients.
 
